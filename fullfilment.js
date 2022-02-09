@@ -26,7 +26,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 
     const local = agent.parameters.local; // grava o valor da variavel local originada na intent e que recebeu a resposta do cliente na variavel local
     const city = local.normalize('NFD').replace(/[\u0300-\u036f]/g, ""); // faço a remoção de acentos e simbolos caso possua para não dar erro na api
-    const API_KEY = '025d43abc19680c2f0990a21e0b223cd'; // key de autorização
+    const API_KEY = ''; // key de autorização
     const consLon = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`; // url da api com as variaveis necessárias para localizar a origem
 
     return axios.get(consLon) // chamada da api
