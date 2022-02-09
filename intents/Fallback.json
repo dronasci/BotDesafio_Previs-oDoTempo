@@ -1,0 +1,36 @@
+{
+  "id": "552f26ce-aa15-47f4-bad1-0645722b5de9",
+  "name": "Fallback",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Desculpa, não consegui entender. Digite \"sim\" para continuar ou \"não\" para encerrar.",
+            "Infelizmente, não compreendi o que deseja. Digite \"sim\" para continuar ou \"não\" para encerrar."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

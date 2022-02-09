@@ -1,0 +1,39 @@
+{
+  "id": "1fb05561-9cc1-4696-8818-352342c406de",
+  "name": "Despedida",
+  "auto": true,
+  "contexts": [
+    "Fallback"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sempre que precisar estarei aqui. Até a próxima!",
+            "Certo! Sempre que precisar é só me chamar! 😁"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

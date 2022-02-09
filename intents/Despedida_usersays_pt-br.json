@@ -1,0 +1,41 @@
+[
+  {
+    "id": "b3b6fa4c-0c33-467d-b122-a7f95609b39b",
+    "data": [
+      {
+        "text": "negativo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "57165dcc-c6e0-4a0a-be50-31cc288ffcfe",
+    "data": [
+      {
+        "text": "sair",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5a014f8c-92e6-41a8-8dc9-43eccb12fbbc",
+    "data": [
+      {
+        "text": "não",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

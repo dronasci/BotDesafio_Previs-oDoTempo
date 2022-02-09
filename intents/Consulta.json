@@ -1,0 +1,67 @@
+{
+  "id": "2ad68698-93e7-458b-83b3-b2d6b25c5180",
+  "name": "Consulta",
+  "auto": true,
+  "contexts": [
+    "Saudacao-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Saudacao-followup",
+          "lifespan": 10
+        },
+        {
+          "name": "Fallback",
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "62686ee2-2577-4794-a711-42ce03d4b587",
+          "name": "local",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$local",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Preciso que me informe o Estado, Cidade ou Município que deseja consultar.\n\nVamos ver se vai dar praia!😎"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Me passa o Estado, Cidade ou  Município para eu verificar o que vem por ai!😉"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
